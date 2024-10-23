@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -241,7 +241,7 @@
 <!--FIM MENU-->
 
 <!--MODAL CART-->
-  <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center">
+  <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center hidden">
   <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
     <h2 class="text-center font-bold text-2xl mb-2">Meu Carrinho</h2>
 
@@ -250,11 +250,11 @@
     <p class="font-bold mt-4">Endereço de entrega</p>
     <input 
       type="text"
-      placeholder="Digite seu Endereço completo.."
+      placeholder="Digite seu Endereço completo..."
       id="address"
       class="w-full border-2 p-1 rounded my-1"
     />
-    <p class="text-red-500 hidden" id="address-warn">Digite se enderço completo!</p>
+    <p class="text-red-500 hidden" id="address-warn">Digite seu enderço completo!</p>
   </div>
 </div>
 <!--FIM MODAL CART-->
@@ -266,7 +266,7 @@
     class="flex items-center gap-2 text-white font-bold"
     id="cart-btn"
   >
-    (<span id="cart-count">2</span>)
+    (<span id="cart-count">0</span>)
     Veja meu carrinho
     <i class="fa fa-cart-plus text-lg text-white"></i>
   </button>
